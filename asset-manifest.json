@@ -1,7 +1,17 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.bf3394aa.js",
-  "main.js.map": "static/js/main.bf3394aa.js.map",
-  "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.b0526b2f.css",
+  "main.css.map": "static/css/main.b0526b2f.css.map",
+  "main.js": "static/js/main.3ca59484.js",
+  "main.js.map": "static/js/main.3ca59484.js.map",
+  "static\\media\\cloudy-day-2.svg": "static/media/cloudy-day-2.b931d84d.svg",
+  "static\\media\\cloudy-night-2.svg": "static/media/cloudy-night-2.ef1c6aa1.svg",
+  "static\\media\\cloudy-night-3.svg": "static/media/cloudy-night-3.bf91ac0f.svg",
+  "static\\media\\cloudy.svg": "static/media/cloudy.ad789581.svg",
+  "static\\media\\day.svg": "static/media/day.7f93fbdb.svg",
+  "static\\media\\logo.ico": "static/media/logo.73867778.ico",
+  "static\\media\\night.svg": "static/media/night.a3f3f38d.svg",
+  "static\\media\\rainy-3.svg": "static/media/rainy-3.c17e7a5d.svg",
+  "static\\media\\rainy-5.svg": "static/media/rainy-5.2bd23641.svg",
+  "static\\media\\snowy-6.svg": "static/media/snowy-6.67d63a14.svg",
+  "static\\media\\thunder.svg": "static/media/thunder.7142c78b.svg"
 }
