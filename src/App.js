@@ -40,7 +40,7 @@ class App extends Component {
          // for when getting location is a success
          console.log('latitude', position.coords.latitude, 'longitude', position.coords.longitude);
          const api_key = '&APPID=c63daf69ac7a1d7194de13a08e67c64b';
-         const url = `http://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}${api_key}`
+         const url = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}${api_key}`
          fetch(url)
          .then(resp=>resp.json())
          .then(resp =>{
@@ -78,7 +78,7 @@ class App extends Component {
     const city = e.target.elements.city.value;
     const country = e.target.elements.country.value;
     const api_key = '&APPID=c63daf69ac7a1d7194de13a08e67c64b';
-    const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}${api_key}`);
+    const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}${api_key}`);
     const resp = await api_call.json();
     console.log(resp);
     if(city && country){
@@ -108,7 +108,7 @@ class App extends Component {
     // const city = e.target.elements.city.value;
     // const country = e.target.elements.country.value;
     const api_key = '&APPID=c63daf69ac7a1d7194de13a08e67c64b';
-    const url = `http://api.openweathermap.org/data/2.5/forecast?q=${country}${api_key}`;
+    const url = `https://api.openweathermap.org/data/2.5/forecast?q=${country}${api_key}`;
     console.log(url);
     const api_call = await fetch(url);
     const resp = await api_call.json();
@@ -134,7 +134,7 @@ class App extends Component {
       <div className={'q'+weather.icon}>
         <Partic weather={weather}/>
         <Navbar />
-        <div className=''>
+        <div>
           <InputSearch 
             getWeather={this.loadWeather} 
           />
