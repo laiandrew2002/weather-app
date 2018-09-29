@@ -4,8 +4,14 @@
   "private": true,
   "homepage": "http://laiandrew2002.github.io/weather-app",
   "dependencies": {
+    "plotly.js": "^1.41.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-geolocated": "^2.4.0",
+    "react-mdl": "^1.11.0",
+    "react-particles-js": "^2.3.0",
+    "react-plotly.js": "^2.2.0",
+    "react-responsive-modal": "^3.4.0",
     "react-scripts": "1.1.5"
   },
   "scripts": {
