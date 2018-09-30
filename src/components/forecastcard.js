@@ -45,14 +45,14 @@ const weatherIcons={
         </div>
         <hr/>
         <div className='flex'>
-            <div className='w-50 align-self-center text-center'>
+            <div className='w-50 align-self-center '>
 
                 <span style={{fontSize:'20px'}}>{temp}</span>°C
             </div>
             <div className='w-50 align-items-center'>
 
                 <img src={weatherIcons[weather]} alt='weather'
-                    width='80px' height='80px'/>
+                    width='100%' height='80vw'/>
             </div>
         </div>
     </div>

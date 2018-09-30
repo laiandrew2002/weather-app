@@ -13,7 +13,7 @@ import SeaLevelGraph from './sealevelgraph';
     <div>
     {
       country && city && 
-        <div>
+        <div className='graphSize'>
           <TempGraph data={props.fivedays}/>
           <WindGraph data={props.fivedays}/>
           <PressureGraph data={props.fivedays}/>

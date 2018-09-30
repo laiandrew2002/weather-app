@@ -10,7 +10,6 @@ import Footer from './components/footer'
 
 import Partic from './components/particles'
 
-
 class App extends Component {
   constructor(){
     super();
@@ -113,8 +112,8 @@ class App extends Component {
     const api_call = await fetch(url);
     const resp = await api_call.json();
     // console.log(resp);
-    this.setState({fivedays:resp.list})
-    console.log(this.state.fivedays)
+    this.setState({fivedays:resp.list});
+    console.log(this.state.fivedays);
   }
 
   onOpenModal = () => {

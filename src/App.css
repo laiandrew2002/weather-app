@@ -9,12 +9,17 @@
   right: 0;
   bottom: 0;
   left:0;
+ 
   /* z-index:-1; */
+}
+.graphSize{
+  width:22em;
 }
 
 .navbar{
   background-color: rgba(255,255,255,0.3);
   z-index:2;
+  
 }
 
 .glassweather {
@@ -24,8 +29,9 @@
 }
 .glassweather:after{
   content: '';
- box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
- z-index:2;
+  box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+  overflow: hidden;
+  z-index:2;
 }
 
 /* clear sky */
@@ -33,7 +39,8 @@
   background: linear-gradient(130deg, #1ec0f0, #f0a11e);
   background-size: 400% 400%;
   animation: AnimationName 5s ease infinite;
-  width:100;
+  overflow: hidden;
+  width:100%;
   top:0;
   right: 0;
   bottom: 0;
@@ -46,6 +53,7 @@
   background: linear-gradient(130deg, #f0b41e, #202fa3);
   background-size: 400% 400%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -58,6 +66,7 @@
   background: linear-gradient(130deg, #273df2, #b0b6ea, #8e8f9d);
   background-size: 600% 600%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -67,9 +76,11 @@
 
 /* partly cloudly */
 .q04d{
+  width:100%;
   background: linear-gradient(130deg, #404043, #26a4c1, #304ce8);
   background-size: 600% 600%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -81,6 +92,7 @@
   background: linear-gradient(130deg, #0017d4, #4c5a5d, #306de8);
   background-size: 600% 600%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -93,6 +105,7 @@
   background: linear-gradient(130deg, #0017d4, #4c5a5d, #e8ab30);
   background-size: 600% 600%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -105,6 +118,7 @@
   background: linear-gradient(130deg, #001096, #f0f4f5, #250050);
   background-size: 600% 600%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -117,6 +131,7 @@
   background: linear-gradient(130deg, #3044e6, #93ccd9, #c1ce5c);
   background-size: 600% 600%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -129,6 +144,7 @@
   background: linear-gradient(to bottom right, #29b0fa 0%, #c7c7c7 100%);
   background-size: 400% 400%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -140,6 +156,7 @@
   background: linear-gradient(to bottom right, #000000 0%, #3437be 100%);
   background-size: 400% 400%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -151,6 +168,7 @@
   background: linear-gradient(to bottom right, #000000 0%, #3437be 100%);
   background-size: 400% 400%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -162,6 +180,7 @@
   background: linear-gradient(to bottom right, #000000 0%, #3437be 100%);
   background-size: 400% 400%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -174,7 +193,7 @@
   background: linear-gradient(to bottom right, #000000 0%, #3437be 100%);
   background-size: 400% 400%;
   animation: AnimationName 5s ease infinite;
-  
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -184,8 +203,9 @@
 
 .q09n{
   background: linear-gradient(to bottom right, #000000 0%, #3437be 100%);
-  animation: AnimationName 5s ease infinite;
   background-size: 400% 400%;
+  animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -197,6 +217,7 @@
   background: linear-gradient(to bottom right, #000000 0%, #3437be 100%);
   background-size: 400% 400%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -208,6 +229,7 @@
   background: linear-gradient(to bottom right, #000000 0%, #3437be 100%);
   background-size: 400% 400%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -219,6 +241,7 @@
   background: linear-gradient(to bottom right, #000000 0%, #3437be 100%);
   background-size: 400% 400%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
@@ -230,6 +253,7 @@
   background: linear-gradient(to bottom right, #000000 0%, #3437be 100%);
   background-size: 400% 400%;
   animation: AnimationName 5s ease infinite;
+  overflow: hidden;
   top:0;
   right: 0;
   bottom: 0;
